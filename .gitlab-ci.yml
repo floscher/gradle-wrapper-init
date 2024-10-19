@@ -1,0 +1,10 @@
+build:
+  image: eclipse-temurin:17-noble
+  before_script: apt-get update && apt-get install -y git
+  script: java src/build/java/Build.java
+  artifacts:
+    paths:
+     - build/Init.java
+     - build/checksums.properties
+    expire_in: 2 months
+    expose_as: build-result

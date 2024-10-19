@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Build" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="src/build/java/Build.java" />
+    <module name="gradle-wrapper-init" />
+    <method v="2" />
+  </configuration>
+</component>
